@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyUSAMap — Interactive US States</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="logo" href="/">
+      <svg class="logo-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="PyUSAMap logo">
+        <rect x="2" y="8" width="24" height="16" rx="2" fill="currentColor" opacity="0.15"/>
+        <path d="M2 12 Q7 7 14 10 Q21 13 26 8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="8"  cy="15" r="2" fill="currentColor"/>
+        <circle cx="14" cy="13" r="2" fill="currentColor"/>
+        <circle cx="20" cy="17" r="2" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">Py<span>USA</span>Map</span>
+    </a>
+    <span class="header-hint">Click state to select · Double-click for cities</span>
+    <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+  </header>
+
+  <div class="app-body">
+    <aside class="sidebar" role="navigation" aria-label="States list">
+      <div class="sidebar-header">
+        <div class="sidebar-title">States</div>
+        <div class="search-box">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input id="search-input" type="search" placeholder="Search states…" aria-label="Search states">
+        </div>
+        <div class="region-chips" role="group" aria-label="Filter by region">
+          <button class="region-chip active" data-region="all">All</button>
+          <button class="region-chip" data-region="Northeast">NE</button>
+          <button class="region-chip" data-region="South">South</button>
+          <button class="region-chip" data-region="Midwest">Midwest</button>
+          <button class="region-chip" data-region="West">West</button>
+        </div>
+      </div>
+      <ul class="states-list" id="states-list" role="listbox" aria-label="US States"></ul>
+      <div class="sidebar-footer">50 states · Click = info · Double-click = cities</div>
+    </aside>
+
+    <main class="map-area" role="main" aria-label="USA interactive map">
+      <svg id="usa-map" role="img" aria-label="Map of the United States"></svg>
+
+      <aside id="info-panel" class="info-panel" role="complementary" aria-label="State information" aria-live="polite">
+        <button id="info-panel-close" class="info-panel-close" aria-label="Close">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M18 6 6 18M6 6l12 12"/>
+          </svg>
+        </button>
+        <div class="info-panel-header">
+          <div id="ip-code" class="info-panel-code"></div>
+          <div id="ip-name" class="info-panel-name"></div>
+          <div id="ip-nickname" class="info-panel-nickname"></div>
+        </div>
+        <div class="info-panel-body">
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card-label">Capital</div><div id="ip-capital" class="info-card-value"></div></div>
+            <div class="info-card"><div class="info-card-label">Founded</div><div id="ip-founded" class="info-card-value"></div></div>
+            <div class="info-card"><div class="info-card-label">Population</div><div id="ip-pop" class="info-card-value"></div></div>
+            <div class="info-card"><div class="info-card-label">Area</div><div id="ip-area" class="info-card-value"></div></div>
+            <div class="info-card" style="grid-column:1/-1"><div class="info-card-label">Region</div><div id="ip-region" class="info-card-value"></div></div>
+          </div>
+          <div id="ip-cities-section" class="cities-section" style="display:none">
+            <div class="cities-section-title">Cities</div>
+            <ul id="ip-cities-list"></ul>
+          </div>
+        </div>
+        <div class="info-panel-footer">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span id="ip-hint"></span>
+        </div>
+      </aside>
+
+      <div class="map-legend" aria-label="Map legend">
+        <div class="legend-title">Legend</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div>State capital</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#e05c1a"></div>Major city</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--color-state-selected)"></div>Selected state</div>
+      </div>
+    </main>
+  </div>
+
+  <div id="tooltip" role="tooltip"></div>
+
+  <script src="/static/js/map.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
