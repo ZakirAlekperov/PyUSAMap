@@ -1,16 +1,337 @@
 {
-  "AL": {"name": "Alabama", "capital": "Montgomery", "population": 5024279, "area_sq_mi": 52420, "nickname": "The Heart of Dixie", "founded": 1819, "region": "South", "cities": [{"name": "Birmingham", "lat": 33.5186, "lng": -86.8104, "pop": 212237}, {"name": "Montgomery", "lat": 32.3618, "lng": -86.2791, "pop": 199518, "capital": true}, {"name": "Huntsville", "lat": 34.7304, "lng": -86.5861, "pop": 190582}, {"name": "Mobile", "lat": 30.6954, "lng": -88.0399, "pop": 187041}]},
-  "AK": {"name": "Alaska", "capital": "Juneau", "population": 733391, "area_sq_mi": 663268, "nickname": "The Last Frontier", "founded": 1959, "region": "West", "cities": [{"name": "Anchorage", "lat": 61.2181, "lng": -149.9003, "pop": 288000}, {"name": "Fairbanks", "lat": 64.8378, "lng": -147.7164, "pop": 31535}, {"name": "Juneau", "lat": 58.3005, "lng": -134.4197, "pop": 31276, "capital": true}]},
-  "AZ": {"name": "Arizona", "capital": "Phoenix", "population": 7151502, "area_sq_mi": 113990, "nickname": "The Grand Canyon State", "founded": 1912, "region": "West", "cities": [{"name": "Phoenix", "lat": 33.4484, "lng": -112.074, "pop": 1608139, "capital": true}, {"name": "Tucson", "lat": 32.2226, "lng": -110.9747, "pop": 542629}, {"name": "Mesa", "lat": 33.4152, "lng": -111.8315, "pop": 504258}, {"name": "Chandler", "lat": 33.3062, "lng": -111.8413, "pop": 261165}]},
-  "CA": {"name": "California", "capital": "Sacramento", "population": 39538223, "area_sq_mi": 163696, "nickname": "The Golden State", "founded": 1850, "region": "West", "cities": [{"name": "Los Angeles", "lat": 34.0522, "lng": -118.2437, "pop": 3898747}, {"name": "San Diego", "lat": 32.7157, "lng": -117.1611, "pop": 1386932}, {"name": "San Jose", "lat": 37.3382, "lng": -121.8863, "pop": 1013240}, {"name": "San Francisco", "lat": 37.7749, "lng": -122.4194, "pop": 873965}, {"name": "Sacramento", "lat": 38.5816, "lng": -121.4944, "pop": 524943, "capital": true}, {"name": "Fresno", "lat": 36.7378, "lng": -119.7871, "pop": 542107}]},
-  "CO": {"name": "Colorado", "capital": "Denver", "population": 5773714, "area_sq_mi": 104094, "nickname": "The Centennial State", "founded": 1876, "region": "West", "cities": [{"name": "Denver", "lat": 39.7392, "lng": -104.9903, "pop": 715522, "capital": true}, {"name": "Colorado Springs", "lat": 38.8339, "lng": -104.8214, "pop": 478961}, {"name": "Aurora", "lat": 39.7294, "lng": -104.8319, "pop": 366623}]},
-  "FL": {"name": "Florida", "capital": "Tallahassee", "population": 21538187, "area_sq_mi": 65758, "nickname": "The Sunshine State", "founded": 1845, "region": "South", "cities": [{"name": "Jacksonville", "lat": 30.3322, "lng": -81.6557, "pop": 949611}, {"name": "Miami", "lat": 25.7617, "lng": -80.1918, "pop": 442241}, {"name": "Tampa", "lat": 27.9506, "lng": -82.4572, "pop": 399700}, {"name": "Orlando", "lat": 28.5383, "lng": -81.3792, "pop": 307573}, {"name": "Tallahassee", "lat": 30.4383, "lng": -84.2807, "pop": 194500, "capital": true}]},
-  "GA": {"name": "Georgia", "capital": "Atlanta", "population": 10711908, "area_sq_mi": 59425, "nickname": "The Peach State", "founded": 1788, "region": "South", "cities": [{"name": "Atlanta", "lat": 33.749, "lng": -84.388, "pop": 498715, "capital": true}, {"name": "Augusta", "lat": 33.4735, "lng": -82.0105, "pop": 202081}, {"name": "Columbus", "lat": 32.461, "lng": -84.9877, "pop": 194058}]},
-  "HI": {"name": "Hawaii", "capital": "Honolulu", "population": 1455271, "area_sq_mi": 10932, "nickname": "The Aloha State", "founded": 1959, "region": "West", "cities": [{"name": "Honolulu", "lat": 21.3069, "lng": -157.8583, "pop": 350964, "capital": true}, {"name": "Hilo", "lat": 19.7074, "lng": -155.0886, "pop": 44186}]},
-  "IL": {"name": "Illinois", "capital": "Springfield", "population": 12812508, "area_sq_mi": 57914, "nickname": "The Prairie State", "founded": 1818, "region": "Midwest", "cities": [{"name": "Chicago", "lat": 41.8781, "lng": -87.6298, "pop": 2696555}, {"name": "Aurora", "lat": 41.7606, "lng": -88.3201, "pop": 180542}, {"name": "Rockford", "lat": 42.2711, "lng": -89.094, "pop": 148655}, {"name": "Springfield", "lat": 39.7817, "lng": -89.6501, "pop": 114230, "capital": true}]},
-  "MA": {"name": "Massachusetts", "capital": "Boston", "population": 7029917, "area_sq_mi": 10554, "nickname": "The Bay State", "founded": 1788, "region": "Northeast", "cities": [{"name": "Boston", "lat": 42.3601, "lng": -71.0589, "pop": 675647, "capital": true}, {"name": "Worcester", "lat": 42.2626, "lng": -71.8023, "pop": 185877}, {"name": "Springfield", "lat": 42.1015, "lng": -72.5898, "pop": 155929}]},
-  "NY": {"name": "New York", "capital": "Albany", "population": 20201249, "area_sq_mi": 54555, "nickname": "The Empire State", "founded": 1788, "region": "Northeast", "cities": [{"name": "New York City", "lat": 40.7128, "lng": -74.006, "pop": 8336817}, {"name": "Buffalo", "lat": 42.8864, "lng": -78.8784, "pop": 276807}, {"name": "Rochester", "lat": 43.1566, "lng": -77.6088, "pop": 211328}, {"name": "Albany", "lat": 42.6526, "lng": -73.7562, "pop": 97856, "capital": true}]},
-  "PA": {"name": "Pennsylvania", "capital": "Harrisburg", "population": 13002700, "area_sq_mi": 46054, "nickname": "The Keystone State", "founded": 1787, "region": "Northeast", "cities": [{"name": "Philadelphia", "lat": 39.9526, "lng": -75.1652, "pop": 1603797}, {"name": "Pittsburgh", "lat": 40.4406, "lng": -79.9959, "pop": 302971}, {"name": "Allentown", "lat": 40.6084, "lng": -75.4902, "pop": 125845}, {"name": "Harrisburg", "lat": 40.2732, "lng": -76.8867, "pop": 50099, "capital": true}]},
-  "TX": {"name": "Texas", "capital": "Austin", "population": 29145505, "area_sq_mi": 268596, "nickname": "The Lone Star State", "founded": 1845, "region": "South", "cities": [{"name": "Houston", "lat": 29.7604, "lng": -95.3698, "pop": 2304580}, {"name": "San Antonio", "lat": 29.4241, "lng": -98.4936, "pop": 1434625}, {"name": "Dallas", "lat": 32.7767, "lng": -96.797, "pop": 1304379}, {"name": "Austin", "lat": 30.2672, "lng": -97.7431, "pop": 961855, "capital": true}, {"name": "Fort Worth", "lat": 32.7555, "lng": -97.3308, "pop": 935508}]},
-  "WA": {"name": "Washington", "capital": "Olympia", "population": 7705281, "area_sq_mi": 71298, "nickname": "The Evergreen State", "founded": 1889, "region": "West", "cities": [{"name": "Seattle", "lat": 47.6062, "lng": -122.3321, "pop": 737255}, {"name": "Spokane", "lat": 47.6588, "lng": -117.426, "pop": 222081}, {"name": "Tacoma", "lat": 47.2529, "lng": -122.4443, "pop": 217827}, {"name": "Olympia", "lat": 47.0379, "lng": -122.9007, "pop": 52555, "capital": true}]}
+  "AL": {"name": "Alabama", "capital": "Montgomery", "population": 5024279, "area_sq_mi": 52420, "nickname": "The Heart of Dixie", "founded": 1819, "region": "South", "cities": [
+    {"name": "Birmingham", "lat": 33.5186, "lng": -86.8104, "pop": 212237},
+    {"name": "Montgomery", "lat": 32.3618, "lng": -86.2791, "pop": 199518, "capital": true},
+    {"name": "Huntsville", "lat": 34.7304, "lng": -86.5861, "pop": 190582},
+    {"name": "Mobile", "lat": 30.6954, "lng": -88.0399, "pop": 187041},
+    {"name": "Tuscaloosa", "lat": 33.2098, "lng": -87.5692, "pop": 99543}
+  ]},
+  "AK": {"name": "Alaska", "capital": "Juneau", "population": 733391, "area_sq_mi": 663268, "nickname": "The Last Frontier", "founded": 1959, "region": "West", "cities": [
+    {"name": "Anchorage", "lat": 61.2181, "lng": -149.9003, "pop": 288000},
+    {"name": "Fairbanks", "lat": 64.8378, "lng": -147.7164, "pop": 31535},
+    {"name": "Juneau", "lat": 58.3005, "lng": -134.4197, "pop": 31276, "capital": true},
+    {"name": "Sitka", "lat": 57.0531, "lng": -135.33, "pop": 8493}
+  ]},
+  "AZ": {"name": "Arizona", "capital": "Phoenix", "population": 7151502, "area_sq_mi": 113990, "nickname": "The Grand Canyon State", "founded": 1912, "region": "West", "cities": [
+    {"name": "Phoenix", "lat": 33.4484, "lng": -112.074, "pop": 1608139, "capital": true},
+    {"name": "Tucson", "lat": 32.2226, "lng": -110.9747, "pop": 542629},
+    {"name": "Mesa", "lat": 33.4152, "lng": -111.8315, "pop": 504258},
+    {"name": "Chandler", "lat": 33.3062, "lng": -111.8413, "pop": 261165},
+    {"name": "Scottsdale", "lat": 33.4942, "lng": -111.9261, "pop": 258069},
+    {"name": "Glendale", "lat": 33.5387, "lng": -112.1859, "pop": 246709}
+  ]},
+  "AR": {"name": "Arkansas", "capital": "Little Rock", "population": 3011524, "area_sq_mi": 53179, "nickname": "The Natural State", "founded": 1836, "region": "South", "cities": [
+    {"name": "Little Rock", "lat": 34.7465, "lng": -92.2896, "pop": 202591, "capital": true},
+    {"name": "Fort Smith", "lat": 35.3859, "lng": -94.3985, "pop": 87650},
+    {"name": "Fayetteville", "lat": 36.0626, "lng": -94.1574, "pop": 93949},
+    {"name": "Springdale", "lat": 36.1867, "lng": -94.1288, "pop": 84161}
+  ]},
+  "CA": {"name": "California", "capital": "Sacramento", "population": 39538223, "area_sq_mi": 163696, "nickname": "The Golden State", "founded": 1850, "region": "West", "cities": [
+    {"name": "Los Angeles", "lat": 34.0522, "lng": -118.2437, "pop": 3898747},
+    {"name": "San Diego", "lat": 32.7157, "lng": -117.1611, "pop": 1386932},
+    {"name": "San Jose", "lat": 37.3382, "lng": -121.8863, "pop": 1013240},
+    {"name": "San Francisco", "lat": 37.7749, "lng": -122.4194, "pop": 873965},
+    {"name": "Sacramento", "lat": 38.5816, "lng": -121.4944, "pop": 524943, "capital": true},
+    {"name": "Fresno", "lat": 36.7378, "lng": -119.7871, "pop": 542107},
+    {"name": "Long Beach", "lat": 33.77, "lng": -118.1937, "pop": 466742},
+    {"name": "Oakland", "lat": 37.8044, "lng": -122.2712, "pop": 440646}
+  ]},
+  "CO": {"name": "Colorado", "capital": "Denver", "population": 5773714, "area_sq_mi": 104094, "nickname": "The Centennial State", "founded": 1876, "region": "West", "cities": [
+    {"name": "Denver", "lat": 39.7392, "lng": -104.9903, "pop": 715522, "capital": true},
+    {"name": "Colorado Springs", "lat": 38.8339, "lng": -104.8214, "pop": 478961},
+    {"name": "Aurora", "lat": 39.7294, "lng": -104.8319, "pop": 366623},
+    {"name": "Fort Collins", "lat": 40.5853, "lng": -105.0844, "pop": 164685},
+    {"name": "Lakewood", "lat": 39.7047, "lng": -105.0814, "pop": 155984}
+  ]},
+  "CT": {"name": "Connecticut", "capital": "Hartford", "population": 3605944, "area_sq_mi": 5543, "nickname": "The Constitution State", "founded": 1788, "region": "Northeast", "cities": [
+    {"name": "Bridgeport", "lat": 41.1865, "lng": -73.1952, "pop": 145936},
+    {"name": "New Haven", "lat": 41.3083, "lng": -72.9279, "pop": 130250},
+    {"name": "Hartford", "lat": 41.7658, "lng": -72.6851, "pop": 121054, "capital": true},
+    {"name": "Stamford", "lat": 41.0534, "lng": -73.5387, "pop": 135470}
+  ]},
+  "DE": {"name": "Delaware", "capital": "Dover", "population": 989948, "area_sq_mi": 2489, "nickname": "The First State", "founded": 1787, "region": "Northeast", "cities": [
+    {"name": "Wilmington", "lat": 39.7447, "lng": -75.5484, "pop": 70898},
+    {"name": "Dover", "lat": 39.1582, "lng": -75.5244, "pop": 37366, "capital": true},
+    {"name": "Newark", "lat": 39.6837, "lng": -75.7497, "pop": 33398}
+  ]},
+  "FL": {"name": "Florida", "capital": "Tallahassee", "population": 21538187, "area_sq_mi": 65758, "nickname": "The Sunshine State", "founded": 1845, "region": "South", "cities": [
+    {"name": "Jacksonville", "lat": 30.3322, "lng": -81.6557, "pop": 949611},
+    {"name": "Miami", "lat": 25.7617, "lng": -80.1918, "pop": 442241},
+    {"name": "Tampa", "lat": 27.9506, "lng": -82.4572, "pop": 399700},
+    {"name": "Orlando", "lat": 28.5383, "lng": -81.3792, "pop": 307573},
+    {"name": "St. Petersburg", "lat": 27.7676, "lng": -82.6403, "pop": 258308},
+    {"name": "Hialeah", "lat": 25.8576, "lng": -80.2781, "pop": 223109},
+    {"name": "Tallahassee", "lat": 30.4383, "lng": -84.2807, "pop": 194500, "capital": true},
+    {"name": "Fort Lauderdale", "lat": 26.1224, "lng": -80.1373, "pop": 182595}
+  ]},
+  "GA": {"name": "Georgia", "capital": "Atlanta", "population": 10711908, "area_sq_mi": 59425, "nickname": "The Peach State", "founded": 1788, "region": "South", "cities": [
+    {"name": "Atlanta", "lat": 33.749, "lng": -84.388, "pop": 498715, "capital": true},
+    {"name": "Augusta", "lat": 33.4735, "lng": -82.0105, "pop": 202081},
+    {"name": "Columbus", "lat": 32.461, "lng": -84.9877, "pop": 194058},
+    {"name": "Macon", "lat": 32.8407, "lng": -83.6324, "pop": 153159},
+    {"name": "Savannah", "lat": 32.0835, "lng": -81.0998, "pop": 147780}
+  ]},
+  "HI": {"name": "Hawaii", "capital": "Honolulu", "population": 1455271, "area_sq_mi": 10932, "nickname": "The Aloha State", "founded": 1959, "region": "West", "cities": [
+    {"name": "Honolulu", "lat": 21.3069, "lng": -157.8583, "pop": 350964, "capital": true},
+    {"name": "Pearl City", "lat": 21.3972, "lng": -157.9753, "pop": 47698},
+    {"name": "Hilo", "lat": 19.7074, "lng": -155.0886, "pop": 44186},
+    {"name": "Kailua", "lat": 21.4022, "lng": -157.7394, "pop": 38635}
+  ]},
+  "ID": {"name": "Idaho", "capital": "Boise", "population": 1839106, "area_sq_mi": 83569, "nickname": "The Gem State", "founded": 1890, "region": "West", "cities": [
+    {"name": "Boise", "lat": 43.615, "lng": -116.2023, "pop": 235684, "capital": true},
+    {"name": "Nampa", "lat": 43.5407, "lng": -116.5635, "pop": 100200},
+    {"name": "Meridian", "lat": 43.6121, "lng": -116.3915, "pop": 114161},
+    {"name": "Idaho Falls", "lat": 43.4666, "lng": -112.0341, "pop": 64818}
+  ]},
+  "IL": {"name": "Illinois", "capital": "Springfield", "population": 12812508, "area_sq_mi": 57914, "nickname": "The Prairie State", "founded": 1818, "region": "Midwest", "cities": [
+    {"name": "Chicago", "lat": 41.8781, "lng": -87.6298, "pop": 2696555},
+    {"name": "Aurora", "lat": 41.7606, "lng": -88.3201, "pop": 180542},
+    {"name": "Rockford", "lat": 42.2711, "lng": -89.094, "pop": 148655},
+    {"name": "Joliet", "lat": 41.525, "lng": -88.0817, "pop": 150362},
+    {"name": "Naperville", "lat": 41.7508, "lng": -88.1535, "pop": 148449},
+    {"name": "Springfield", "lat": 39.7817, "lng": -89.6501, "pop": 114230, "capital": true}
+  ]},
+  "IN": {"name": "Indiana", "capital": "Indianapolis", "population": 6785528, "area_sq_mi": 36420, "nickname": "The Hoosier State", "founded": 1816, "region": "Midwest", "cities": [
+    {"name": "Indianapolis", "lat": 39.7684, "lng": -86.1581, "pop": 887642, "capital": true},
+    {"name": "Fort Wayne", "lat": 41.13, "lng": -85.1288, "pop": 263886},
+    {"name": "Evansville", "lat": 37.9748, "lng": -87.5558, "pop": 117429},
+    {"name": "South Bend", "lat": 41.6764, "lng": -86.252, "pop": 103453}
+  ]},
+  "IA": {"name": "Iowa", "capital": "Des Moines", "population": 3190369, "area_sq_mi": 56273, "nickname": "The Hawkeye State", "founded": 1846, "region": "Midwest", "cities": [
+    {"name": "Des Moines", "lat": 41.5868, "lng": -93.625, "pop": 214133, "capital": true},
+    {"name": "Cedar Rapids", "lat": 41.9779, "lng": -91.6656, "pop": 137710},
+    {"name": "Davenport", "lat": 41.5236, "lng": -90.5776, "pop": 101724},
+    {"name": "Sioux City", "lat": 42.4999, "lng": -96.4003, "pop": 82684}
+  ]},
+  "KS": {"name": "Kansas", "capital": "Topeka", "population": 2937880, "area_sq_mi": 82278, "nickname": "The Sunflower State", "founded": 1861, "region": "Midwest", "cities": [
+    {"name": "Wichita", "lat": 37.6872, "lng": -97.3301, "pop": 389255},
+    {"name": "Overland Park", "lat": 38.9822, "lng": -94.6708, "pop": 197238},
+    {"name": "Kansas City", "lat": 39.1142, "lng": -94.6275, "pop": 156607},
+    {"name": "Topeka", "lat": 39.0473, "lng": -95.6752, "pop": 126587, "capital": true}
+  ]},
+  "KY": {"name": "Kentucky", "capital": "Frankfort", "population": 4505836, "area_sq_mi": 40408, "nickname": "The Bluegrass State", "founded": 1792, "region": "South", "cities": [
+    {"name": "Louisville", "lat": 38.2527, "lng": -85.7585, "pop": 633045},
+    {"name": "Lexington", "lat": 38.0406, "lng": -84.5037, "pop": 322570},
+    {"name": "Bowling Green", "lat": 36.9685, "lng": -86.4808, "pop": 72294},
+    {"name": "Frankfort", "lat": 38.2009, "lng": -84.8733, "pop": 27741, "capital": true}
+  ]},
+  "LA": {"name": "Louisiana", "capital": "Baton Rouge", "population": 4657757, "area_sq_mi": 52378, "nickname": "The Pelican State", "founded": 1812, "region": "South", "cities": [
+    {"name": "New Orleans", "lat": 29.9511, "lng": -90.0715, "pop": 383997},
+    {"name": "Baton Rouge", "lat": 30.4515, "lng": -91.1871, "pop": 227549, "capital": true},
+    {"name": "Shreveport", "lat": 32.5252, "lng": -93.7502, "pop": 187593},
+    {"name": "Lafayette", "lat": 30.2241, "lng": -92.0198, "pop": 122761}
+  ]},
+  "ME": {"name": "Maine", "capital": "Augusta", "population": 1362359, "area_sq_mi": 35380, "nickname": "The Pine Tree State", "founded": 1820, "region": "Northeast", "cities": [
+    {"name": "Portland", "lat": 43.6591, "lng": -70.2568, "pop": 68408},
+    {"name": "Lewiston", "lat": 44.1004, "lng": -70.2148, "pop": 36592},
+    {"name": "Bangor", "lat": 44.8012, "lng": -68.7778, "pop": 32203},
+    {"name": "Augusta", "lat": 44.3106, "lng": -69.7795, "pop": 18899, "capital": true}
+  ]},
+  "MD": {"name": "Maryland", "capital": "Annapolis", "population": 6177224, "area_sq_mi": 12407, "nickname": "The Old Line State", "founded": 1788, "region": "Northeast", "cities": [
+    {"name": "Baltimore", "lat": 39.2904, "lng": -76.6122, "pop": 585708},
+    {"name": "Frederick", "lat": 39.4143, "lng": -77.4105, "pop": 78171},
+    {"name": "Gaithersburg", "lat": 39.1434, "lng": -77.2014, "pop": 68255},
+    {"name": "Annapolis", "lat": 38.9784, "lng": -76.4922, "pop": 40812, "capital": true}
+  ]},
+  "MA": {"name": "Massachusetts", "capital": "Boston", "population": 7029917, "area_sq_mi": 10554, "nickname": "The Bay State", "founded": 1788, "region": "Northeast", "cities": [
+    {"name": "Boston", "lat": 42.3601, "lng": -71.0589, "pop": 675647, "capital": true},
+    {"name": "Worcester", "lat": 42.2626, "lng": -71.8023, "pop": 185877},
+    {"name": "Springfield", "lat": 42.1015, "lng": -72.5898, "pop": 155929},
+    {"name": "Cambridge", "lat": 42.3736, "lng": -71.1097, "pop": 118403},
+    {"name": "Lowell", "lat": 42.6334, "lng": -71.3162, "pop": 115554}
+  ]},
+  "MI": {"name": "Michigan", "capital": "Lansing", "population": 10077331, "area_sq_mi": 96714, "nickname": "The Great Lakes State", "founded": 1837, "region": "Midwest", "cities": [
+    {"name": "Detroit", "lat": 42.3314, "lng": -83.0458, "pop": 639111},
+    {"name": "Grand Rapids", "lat": 42.9634, "lng": -85.6681, "pop": 198917},
+    {"name": "Warren", "lat": 42.5145, "lng": -83.0147, "pop": 134587},
+    {"name": "Sterling Heights", "lat": 42.5803, "lng": -83.0302, "pop": 131224},
+    {"name": "Lansing", "lat": 42.7325, "lng": -84.5555, "pop": 112644, "capital": true}
+  ]},
+  "MN": {"name": "Minnesota", "capital": "Saint Paul", "population": 5706494, "area_sq_mi": 86936, "nickname": "The North Star State", "founded": 1858, "region": "Midwest", "cities": [
+    {"name": "Minneapolis", "lat": 44.9778, "lng": -93.265, "pop": 429606},
+    {"name": "Saint Paul", "lat": 44.9537, "lng": -93.09, "pop": 311527, "capital": true},
+    {"name": "Rochester", "lat": 44.0121, "lng": -92.4802, "pop": 121395},
+    {"name": "Duluth", "lat": 46.7867, "lng": -92.1005, "pop": 90872}
+  ]},
+  "MS": {"name": "Mississippi", "capital": "Jackson", "population": 2961279, "area_sq_mi": 48432, "nickname": "The Magnolia State", "founded": 1817, "region": "South", "cities": [
+    {"name": "Jackson", "lat": 32.2988, "lng": -90.1848, "pop": 153701, "capital": true},
+    {"name": "Gulfport", "lat": 30.3674, "lng": -89.0928, "pop": 72926},
+    {"name": "Southaven", "lat": 34.9887, "lng": -90.0126, "pop": 54844},
+    {"name": "Hattiesburg", "lat": 31.3271, "lng": -89.2903, "pop": 46997}
+  ]},
+  "MO": {"name": "Missouri", "capital": "Jefferson City", "population": 6154913, "area_sq_mi": 69707, "nickname": "The Show-Me State", "founded": 1821, "region": "Midwest", "cities": [
+    {"name": "Kansas City", "lat": 39.0997, "lng": -94.5786, "pop": 508090},
+    {"name": "St. Louis", "lat": 38.627, "lng": -90.1994, "pop": 301578},
+    {"name": "Springfield", "lat": 37.2153, "lng": -93.2982, "pop": 169176},
+    {"name": "Columbia", "lat": 38.9517, "lng": -92.3341, "pop": 126254},
+    {"name": "Jefferson City", "lat": 38.5767, "lng": -92.1735, "pop": 42838, "capital": true}
+  ]},
+  "MT": {"name": "Montana", "capital": "Helena", "population": 1084225, "area_sq_mi": 147040, "nickname": "Big Sky Country", "founded": 1889, "region": "West", "cities": [
+    {"name": "Billings", "lat": 45.7833, "lng": -108.5007, "pop": 117116},
+    {"name": "Missoula", "lat": 46.8721, "lng": -113.994, "pop": 73489},
+    {"name": "Great Falls", "lat": 47.5002, "lng": -111.3008, "pop": 58505},
+    {"name": "Helena", "lat": 46.5958, "lng": -112.027, "pop": 32315, "capital": true}
+  ]},
+  "NE": {"name": "Nebraska", "capital": "Lincoln", "population": 1961504, "area_sq_mi": 77358, "nickname": "The Cornhusker State", "founded": 1867, "region": "Midwest", "cities": [
+    {"name": "Omaha", "lat": 41.2565, "lng": -95.9345, "pop": 486051},
+    {"name": "Lincoln", "lat": 40.8136, "lng": -96.7026, "pop": 289102, "capital": true},
+    {"name": "Bellevue", "lat": 41.1544, "lng": -95.9146, "pop": 63977},
+    {"name": "Grand Island", "lat": 40.9264, "lng": -98.342, "pop": 53765}
+  ]},
+  "NV": {"name": "Nevada", "capital": "Carson City", "population": 3104614, "area_sq_mi": 110572, "nickname": "The Silver State", "founded": 1864, "region": "West", "cities": [
+    {"name": "Las Vegas", "lat": 36.1699, "lng": -115.1398, "pop": 641903},
+    {"name": "Henderson", "lat": 36.0395, "lng": -114.9817, "pop": 320189},
+    {"name": "Reno", "lat": 39.5296, "lng": -119.8138, "pop": 264165},
+    {"name": "North Las Vegas", "lat": 36.1989, "lng": -115.1175, "pop": 262527},
+    {"name": "Carson City", "lat": 39.1638, "lng": -119.7674, "pop": 58639, "capital": true}
+  ]},
+  "NH": {"name": "New Hampshire", "capital": "Concord", "population": 1377529, "area_sq_mi": 9349, "nickname": "The Granite State", "founded": 1788, "region": "Northeast", "cities": [
+    {"name": "Manchester", "lat": 42.9956, "lng": -71.4548, "pop": 115644},
+    {"name": "Nashua", "lat": 42.7654, "lng": -71.4676, "pop": 91322},
+    {"name": "Concord", "lat": 43.2081, "lng": -71.5376, "pop": 43976, "capital": true},
+    {"name": "Derry", "lat": 42.8812, "lng": -71.327, "pop": 33317}
+  ]},
+  "NJ": {"name": "New Jersey", "capital": "Trenton", "population": 9288994, "area_sq_mi": 8723, "nickname": "The Garden State", "founded": 1787, "region": "Northeast", "cities": [
+    {"name": "Newark", "lat": 40.7357, "lng": -74.1724, "pop": 311549},
+    {"name": "Jersey City", "lat": 40.7178, "lng": -74.0431, "pop": 292449},
+    {"name": "Paterson", "lat": 40.9168, "lng": -74.1718, "pop": 159732},
+    {"name": "Elizabeth", "lat": 40.664, "lng": -74.2107, "pop": 137298},
+    {"name": "Trenton", "lat": 40.2171, "lng": -74.7429, "pop": 90871, "capital": true}
+  ]},
+  "NM": {"name": "New Mexico", "capital": "Santa Fe", "population": 2117522, "area_sq_mi": 121590, "nickname": "The Land of Enchantment", "founded": 1912, "region": "West", "cities": [
+    {"name": "Albuquerque", "lat": 35.0853, "lng": -106.6056, "pop": 564559},
+    {"name": "Las Cruces", "lat": 32.3199, "lng": -106.7637, "pop": 111385},
+    {"name": "Rio Rancho", "lat": 35.2328, "lng": -106.663, "pop": 104046},
+    {"name": "Santa Fe", "lat": 35.687, "lng": -105.9378, "pop": 84683, "capital": true}
+  ]},
+  "NY": {"name": "New York", "capital": "Albany", "population": 20201249, "area_sq_mi": 54555, "nickname": "The Empire State", "founded": 1788, "region": "Northeast", "cities": [
+    {"name": "New York City", "lat": 40.7128, "lng": -74.006, "pop": 8336817},
+    {"name": "Buffalo", "lat": 42.8864, "lng": -78.8784, "pop": 276807},
+    {"name": "Rochester", "lat": 43.1566, "lng": -77.6088, "pop": 211328},
+    {"name": "Yonkers", "lat": 40.9312, "lng": -73.8988, "pop": 211569},
+    {"name": "Syracuse", "lat": 43.0481, "lng": -76.1474, "pop": 142327},
+    {"name": "Albany", "lat": 42.6526, "lng": -73.7562, "pop": 97856, "capital": true}
+  ]},
+  "NC": {"name": "North Carolina", "capital": "Raleigh", "population": 10439388, "area_sq_mi": 53819, "nickname": "The Tar Heel State", "founded": 1789, "region": "South", "cities": [
+    {"name": "Charlotte", "lat": 35.2271, "lng": -80.8431, "pop": 874579},
+    {"name": "Raleigh", "lat": 35.7796, "lng": -78.6382, "pop": 467665, "capital": true},
+    {"name": "Greensboro", "lat": 36.0726, "lng": -79.792, "pop": 299035},
+    {"name": "Durham", "lat": 35.994, "lng": -78.8986, "pop": 278993},
+    {"name": "Winston-Salem", "lat": 36.0999, "lng": -80.2442, "pop": 249545}
+  ]},
+  "ND": {"name": "North Dakota", "capital": "Bismarck", "population": 779094, "area_sq_mi": 70698, "nickname": "The Peace Garden State", "founded": 1889, "region": "Midwest", "cities": [
+    {"name": "Fargo", "lat": 46.8772, "lng": -96.7898, "pop": 125990},
+    {"name": "Bismarck", "lat": 46.8083, "lng": -100.7837, "pop": 73622, "capital": true},
+    {"name": "Grand Forks", "lat": 47.9253, "lng": -97.0329, "pop": 59166},
+    {"name": "Minot", "lat": 48.233, "lng": -101.2923, "pop": 48743}
+  ]},
+  "OH": {"name": "Ohio", "capital": "Columbus", "population": 11799448, "area_sq_mi": 44826, "nickname": "The Buckeye State", "founded": 1803, "region": "Midwest", "cities": [
+    {"name": "Columbus", "lat": 39.9612, "lng": -82.9988, "pop": 905748, "capital": true},
+    {"name": "Cleveland", "lat": 41.4993, "lng": -81.6944, "pop": 372624},
+    {"name": "Cincinnati", "lat": 39.1031, "lng": -84.512, "pop": 309317},
+    {"name": "Toledo", "lat": 41.6528, "lng": -83.5379, "pop": 270871},
+    {"name": "Akron", "lat": 41.0814, "lng": -81.519, "pop": 190469}
+  ]},
+  "OK": {"name": "Oklahoma", "capital": "Oklahoma City", "population": 3959353, "area_sq_mi": 69899, "nickname": "The Sooner State", "founded": 1907, "region": "South", "cities": [
+    {"name": "Oklahoma City", "lat": 35.4676, "lng": -97.5164, "pop": 681054, "capital": true},
+    {"name": "Tulsa", "lat": 36.154, "lng": -95.9928, "pop": 413066},
+    {"name": "Norman", "lat": 35.2226, "lng": -97.4395, "pop": 128026},
+    {"name": "Broken Arrow", "lat": 36.0609, "lng": -95.7975, "pop": 113540}
+  ]},
+  "OR": {"name": "Oregon", "capital": "Salem", "population": 4237256, "area_sq_mi": 98379, "nickname": "The Beaver State", "founded": 1859, "region": "West", "cities": [
+    {"name": "Portland", "lat": 45.5051, "lng": -122.675, "pop": 652503},
+    {"name": "Eugene", "lat": 44.0521, "lng": -123.0868, "pop": 176654},
+    {"name": "Salem", "lat": 44.9429, "lng": -123.0351, "pop": 175535, "capital": true},
+    {"name": "Gresham", "lat": 45.4984, "lng": -122.4302, "pop": 114247},
+    {"name": "Hillsboro", "lat": 45.5229, "lng": -122.9898, "pop": 106447}
+  ]},
+  "PA": {"name": "Pennsylvania", "capital": "Harrisburg", "population": 13002700, "area_sq_mi": 46054, "nickname": "The Keystone State", "founded": 1787, "region": "Northeast", "cities": [
+    {"name": "Philadelphia", "lat": 39.9526, "lng": -75.1652, "pop": 1603797},
+    {"name": "Pittsburgh", "lat": 40.4406, "lng": -79.9959, "pop": 302971},
+    {"name": "Allentown", "lat": 40.6084, "lng": -75.4902, "pop": 125845},
+    {"name": "Erie", "lat": 42.1292, "lng": -80.0851, "pop": 94831},
+    {"name": "Harrisburg", "lat": 40.2732, "lng": -76.8867, "pop": 50099, "capital": true}
+  ]},
+  "RI": {"name": "Rhode Island", "capital": "Providence", "population": 1097379, "area_sq_mi": 1545, "nickname": "The Ocean State", "founded": 1790, "region": "Northeast", "cities": [
+    {"name": "Providence", "lat": 41.824, "lng": -71.4128, "pop": 190934, "capital": true},
+    {"name": "Cranston", "lat": 41.7798, "lng": -71.4373, "pop": 82934},
+    {"name": "Warwick", "lat": 41.7001, "lng": -71.4162, "pop": 82672},
+    {"name": "Pawtucket", "lat": 41.8787, "lng": -71.3826, "pop": 72958}
+  ]},
+  "SC": {"name": "South Carolina", "capital": "Columbia", "population": 5118425, "area_sq_mi": 32020, "nickname": "The Palmetto State", "founded": 1788, "region": "South", "cities": [
+    {"name": "Columbia", "lat": 34.0007, "lng": -81.0348, "pop": 136632, "capital": true},
+    {"name": "Charleston", "lat": 32.7765, "lng": -79.9311, "pop": 150227},
+    {"name": "North Charleston", "lat": 32.8546, "lng": -79.9748, "pop": 114852},
+    {"name": "Greenville", "lat": 34.8526, "lng": -82.394, "pop": 70635}
+  ]},
+  "SD": {"name": "South Dakota", "capital": "Pierre", "population": 886667, "area_sq_mi": 77116, "nickname": "The Mount Rushmore State", "founded": 1889, "region": "Midwest", "cities": [
+    {"name": "Sioux Falls", "lat": 43.5446, "lng": -96.7311, "pop": 192517},
+    {"name": "Rapid City", "lat": 44.0805, "lng": -103.231, "pop": 74703},
+    {"name": "Aberdeen", "lat": 45.4647, "lng": -98.4865, "pop": 28324},
+    {"name": "Pierre", "lat": 44.3683, "lng": -100.351, "pop": 14091, "capital": true}
+  ]},
+  "TN": {"name": "Tennessee", "capital": "Nashville", "population": 6910840, "area_sq_mi": 42144, "nickname": "The Volunteer State", "founded": 1796, "region": "South", "cities": [
+    {"name": "Memphis", "lat": 35.1495, "lng": -90.049, "pop": 633104},
+    {"name": "Nashville", "lat": 36.1627, "lng": -86.7816, "pop": 689447, "capital": true},
+    {"name": "Knoxville", "lat": 35.9606, "lng": -83.9207, "pop": 190740},
+    {"name": "Chattanooga", "lat": 35.0456, "lng": -85.3097, "pop": 181099},
+    {"name": "Clarksville", "lat": 36.5298, "lng": -87.3595, "pop": 156823}
+  ]},
+  "TX": {"name": "Texas", "capital": "Austin", "population": 29145505, "area_sq_mi": 268596, "nickname": "The Lone Star State", "founded": 1845, "region": "South", "cities": [
+    {"name": "Houston", "lat": 29.7604, "lng": -95.3698, "pop": 2304580},
+    {"name": "San Antonio", "lat": 29.4241, "lng": -98.4936, "pop": 1434625},
+    {"name": "Dallas", "lat": 32.7767, "lng": -96.797, "pop": 1304379},
+    {"name": "Austin", "lat": 30.2672, "lng": -97.7431, "pop": 961855, "capital": true},
+    {"name": "Fort Worth", "lat": 32.7555, "lng": -97.3308, "pop": 935508},
+    {"name": "El Paso", "lat": 31.7619, "lng": -106.485, "pop": 678815},
+    {"name": "Arlington", "lat": 32.7357, "lng": -97.1081, "pop": 394266},
+    {"name": "Corpus Christi", "lat": 27.8006, "lng": -97.3964, "pop": 317863}
+  ]},
+  "UT": {"name": "Utah", "capital": "Salt Lake City", "population": 3271616, "area_sq_mi": 84897, "nickname": "The Beehive State", "founded": 1896, "region": "West", "cities": [
+    {"name": "Salt Lake City", "lat": 40.7608, "lng": -111.891, "pop": 199723, "capital": true},
+    {"name": "West Valley City", "lat": 40.6916, "lng": -112.001, "pop": 140230},
+    {"name": "Provo", "lat": 40.2338, "lng": -111.6585, "pop": 115264},
+    {"name": "West Jordan", "lat": 40.6097, "lng": -111.9391, "pop": 116961},
+    {"name": "Ogden", "lat": 41.223, "lng": -111.9738, "pop": 87321}
+  ]},
+  "VT": {"name": "Vermont", "capital": "Montpelier", "population": 643077, "area_sq_mi": 9616, "nickname": "The Green Mountain State", "founded": 1791, "region": "Northeast", "cities": [
+    {"name": "Burlington", "lat": 44.4759, "lng": -73.2121, "pop": 44743},
+    {"name": "South Burlington", "lat": 44.4669, "lng": -73.1709, "pop": 19814},
+    {"name": "Rutland", "lat": 43.6106, "lng": -72.9726, "pop": 15807},
+    {"name": "Montpelier", "lat": 44.2601, "lng": -72.5754, "pop": 7992, "capital": true}
+  ]},
+  "VA": {"name": "Virginia", "capital": "Richmond", "population": 8631393, "area_sq_mi": 42775, "nickname": "Old Dominion", "founded": 1788, "region": "South", "cities": [
+    {"name": "Virginia Beach", "lat": 36.8529, "lng": -75.978, "pop": 459470},
+    {"name": "Norfolk", "lat": 36.8508, "lng": -76.2859, "pop": 238005},
+    {"name": "Chesapeake", "lat": 36.7682, "lng": -76.2875, "pop": 249422},
+    {"name": "Richmond", "lat": 37.5407, "lng": -77.436, "pop": 226610, "capital": true},
+    {"name": "Newport News", "lat": 37.0871, "lng": -76.473, "pop": 186247}
+  ]},
+  "WA": {"name": "Washington", "capital": "Olympia", "population": 7705281, "area_sq_mi": 71298, "nickname": "The Evergreen State", "founded": 1889, "region": "West", "cities": [
+    {"name": "Seattle", "lat": 47.6062, "lng": -122.3321, "pop": 737255},
+    {"name": "Spokane", "lat": 47.6588, "lng": -117.426, "pop": 222081},
+    {"name": "Tacoma", "lat": 47.2529, "lng": -122.4443, "pop": 217827},
+    {"name": "Vancouver", "lat": 45.6387, "lng": -122.6615, "pop": 190915},
+    {"name": "Bellevue", "lat": 47.6101, "lng": -122.2015, "pop": 148164},
+    {"name": "Olympia", "lat": 47.0379, "lng": -122.9007, "pop": 52555, "capital": true}
+  ]},
+  "WV": {"name": "West Virginia", "capital": "Charleston", "population": 1793716, "area_sq_mi": 24230, "nickname": "The Mountain State", "founded": 1863, "region": "South", "cities": [
+    {"name": "Charleston", "lat": 38.3498, "lng": -81.6326, "pop": 46536, "capital": true},
+    {"name": "Huntington", "lat": 38.4193, "lng": -82.4452, "pop": 46047},
+    {"name": "Morgantown", "lat": 39.6295, "lng": -79.9559, "pop": 32107},
+    {"name": "Parkersburg", "lat": 39.2667, "lng": -81.5615, "pop": 29768}
+  ]},
+  "WI": {"name": "Wisconsin", "capital": "Madison", "population": 5893718, "area_sq_mi": 65496, "nickname": "The Badger State", "founded": 1848, "region": "Midwest", "cities": [
+    {"name": "Milwaukee", "lat": 43.0389, "lng": -87.9065, "pop": 577222},
+    {"name": "Madison", "lat": 43.0731, "lng": -89.4012, "pop": 269840, "capital": true},
+    {"name": "Green Bay", "lat": 44.5133, "lng": -88.0133, "pop": 107395},
+    {"name": "Kenosha", "lat": 42.5847, "lng": -87.8212, "pop": 100150},
+    {"name": "Racine", "lat": 42.7261, "lng": -87.7829, "pop": 77816}
+  ]},
+  "WY": {"name": "Wyoming", "capital": "Cheyenne", "population": 576851, "area_sq_mi": 97813, "nickname": "The Equality State", "founded": 1890, "region": "West", "cities": [
+    {"name": "Cheyenne", "lat": 41.14, "lng": -104.8202, "pop": 65132, "capital": true},
+    {"name": "Casper", "lat": 42.8501, "lng": -106.3252, "pop": 58893},
+    {"name": "Laramie", "lat": 41.3114, "lng": -105.5911, "pop": 32158},
+    {"name": "Gillette", "lat": 44.2911, "lng": -105.5022, "pop": 32857}
+  ]}
 }
